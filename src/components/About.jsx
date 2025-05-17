@@ -126,10 +126,10 @@ const About = () => {
         >
           {/* Image goes here */}
           <Image
-            src="https://wordpress.zozothemes.com/seoinux/wp-content/uploads/sites/33/2025/01/inner-homeimg2.png"
+            src="/inner-homeimg2.png"
             alt="about"
-            width={500}
-            height={500}
+            width={600}
+            height={900}
             className="w-full hidden md:flex md:h-[800px] object-cover rounded-2xl"
           ></Image>
         </div>

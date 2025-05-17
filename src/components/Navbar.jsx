@@ -8,7 +8,7 @@ const navLinks = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
   { name: "Our Services", href: "/services" },
-  { name: "Blog", href: "/blog" },
+  { name: "Blog", href: "/blogs" },
   { name: "Contact Us", href: "/contact" },
 ];
 
@@ -20,16 +20,15 @@ const Navbar = () => {
     <nav
       className="sticky top-0 z-50 w-full bg-[#100A08] backdrop-blur border-b border-b-[#2a1c17] group transition-all duration-300"
       style={{
-        backgroundImage:
-          "url('https://wordpress.zozothemes.com/seoinux/wp-content/uploads/sites/33/2024/12/2c72c316-1851-43cd-9145-fae5f176f7b6.png')",
+        backgroundImage: "url('/pouchbg.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6 relative z-10">
-        <span className="text-3xl font-bold text-white">
+        <Link href="/" className="text-3xl font-bold text-white">
           Pouch<span className="text-orange-400">Care</span>
-        </span>
+        </Link>
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-white font-medium">
           {navLinks.map((link) => (

@@ -111,7 +111,11 @@ const OurBenefits = () => {
         Enabling growth through expert marketing, performance advertising, smart
         ads, and high-powered web development, app development and SEO services.
       </p>
-      <div className="container mx-auto flex flex-col md:flex-row gap-12 items-start">
+      <div
+        className="container mx-auto flex flex-col md:flex-row gap-12 items-start"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         {/* Left Side */}
         <div className="flex-1 mb-10 md:mb-0 max-w-lg">
           <h3 className="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">

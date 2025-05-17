@@ -51,12 +51,12 @@ const Footer = () => {
           <div className="mb-2 text-sm">
             <span className="font-semibold text-orange-400">24/7 CALL US</span>
             <br />
-            <span>+(528) 456-7592</span>
+            <span>+8809638421042</span>
           </div>
           <div className="mb-4 text-sm">
             <span className="font-semibold text-orange-400">24/7 EMAIL US</span>
             <br />
-            <span>Info@pouchcare.com</span>
+            <span>Contact@pouchcare.com</span>
           </div>
           <div className="flex flex-wrap gap-2">
             {socialLinks.map((item, idx) => (

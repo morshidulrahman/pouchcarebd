@@ -5,8 +5,7 @@ const Hero = () => {
     <section
       className="relative w-full min-h-[500px] flex items-center justify-center bg-[#100A08] overflow-hidden"
       style={{
-        backgroundImage:
-          "url('https://wordpress.zozothemes.com/seoinux/wp-content/uploads/sites/33/2024/12/2c72c316-1851-43cd-9145-fae5f176f7b6.png')",
+        backgroundImage: "url('/pouchbg.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -47,7 +46,7 @@ const Hero = () => {
           data-aos-duration="1000"
         >
           <img
-            src="https://wordpress.zozothemes.com/seoinux/wp-content/uploads/sites/33/2025/01/bg-img-seo-slide.png"
+            src="/bg-img-seo-slide.png"
             alt="Hero"
             className="rounded-lg shadow-lg max-w-xs md:max-w-2xl w-full h-auto object-cover "
           />
