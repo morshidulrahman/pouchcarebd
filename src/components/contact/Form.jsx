@@ -58,7 +58,7 @@ const Form = () => {
       {/* Image Section */}
       <div className="flex-1 min-h-[350px] bg-gray-200">
         <img
-          src="https://wordpress.zozothemes.com/seoinux/wp-content/uploads/sites/33/2025/01/space-bg-img.jpg"
+          src="/spacebg.jpg"
           alt="Consultation"
           className="w-full h-full object-cover object-center rounded-none md:rounded-r-3xl"
           draggable={false}

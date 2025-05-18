@@ -6,8 +6,7 @@ const HeadingBg = ({ label }) => {
     <div
       className="w-full h-[320px] md:h-[340px] flex items-center relative"
       style={{
-        backgroundImage:
-          "url('https://wordpress.zozothemes.com/seoinux/wp-content/uploads/sites/33/2025/01/page-title-of-seo.jpg')",
+        backgroundImage: "url('/pagetitle.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
