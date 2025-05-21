@@ -3,6 +3,7 @@ import "./globals.css";
 import AosProvider from "@/provider/AosProvider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist",
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} font-geist bg-black`}>
+        <GoogleAnalytics />
         <AosProvider>
           <Navbar />
           {children}
